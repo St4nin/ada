@@ -1,0 +1,15 @@
+{
+    "version": "0.0.1",
+    "name": "AGV sample",
+    "description": "For experimental purposes with ES architecture",    
+    "rules": [
+        {
+            "hypothesis": "lane",
+            "evidences": {
+                "cam": true,
+                "lidar": true,
+                "gps": true
+            }
+        }
+    ]
+}
