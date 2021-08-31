@@ -2,6 +2,7 @@
     "version": "0.0.1",
     "name": "AGV sample",
     "description": "For experimental purposes with ES architecture",    
+    "link": "https://raw.githubusercontent.com/St4nin/ada/main/sample_diagnostic.json",
     "rules": [
         {
             "hypothesis": "lane",
