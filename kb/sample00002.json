@@ -1,0 +1,28 @@
+
+{
+    "version": "0.0.1",
+    "name": "Sample Bayesian Network 2", 
+    "networks": [
+      {
+          "name": "Breach",
+          "graph": "DAC",
+          "type": "Naive",
+          "values": "Binary",
+          "nodes": ["node_0_0", "node_1_0", "node_0_1", "node_1_1"],
+          "edges": [
+
+          {
+            "name": "node_0_1",
+            "parents": ["node_0_0",  "node_1_0"]
+          },
+
+          {
+            "name": "node_1_1",
+            "parents": ["node_0_0",  "node_1_0"]
+          }
+
+          ]
+      }
+    ]
+  }
+        

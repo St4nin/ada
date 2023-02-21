@@ -1,0 +1,49 @@
+
+{
+    "version": "0.0.1",
+    "name": "Sample Bayesian Network 3", 
+    "networks": [
+      {
+          "name": "Breach",
+          "graph": "DAC",
+          "type": "Naive",
+          "values": "Binary",
+          "nodes": ["node_0_0", "node_1_0", "node_2_0", "node_0_1", "node_1_1", "node_2_1", "node_0_2", "node_1_2", "node_2_2"],
+          "edges": [
+
+          {
+            "name": "node_0_1",
+            "parents": ["node_0_0",  "node_1_0",  "node_2_0"]
+          },
+
+          {
+            "name": "node_1_1",
+            "parents": ["node_0_0",  "node_1_0",  "node_2_0"]
+          },
+
+          {
+            "name": "node_2_1",
+            "parents": ["node_0_0",  "node_1_0",  "node_2_0"]
+          },
+
+
+          {
+            "name": "node_0_2",
+            "parents": ["node_0_1",  "node_1_1",  "node_2_1"]
+          },
+
+          {
+            "name": "node_1_2",
+            "parents": ["node_0_1",  "node_1_1",  "node_2_1"]
+          },
+
+          {
+            "name": "node_2_2",
+            "parents": ["node_0_1",  "node_1_1",  "node_2_1"]
+          }
+
+          ]
+      }
+    ]
+  }
+        
